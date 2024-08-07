@@ -1,0 +1,124 @@
+#root{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    width: 100% !important;
+} 
+body{
+    display: block;
+    align-content:center;
+
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#login-form{
+    border: 1px solid #e7e7e7;
+    padding: 20px 30px;
+    display: flex;
+    width: 23%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+h1{
+    margin-top: 0px;
+}
+h5{
+    margin-bottom: 5px;
+}
+p{
+    padding-bottom: 8px;
+}
+#container-button{
+    width: 100%;
+    box-sizing: border-box;
+}
+#button-continue{
+    all: unset;
+    text-align: center;
+    width: 100%;
+    padding: 10px 15px;
+    background-color:#ffd814;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+#input-email{
+    margin-top: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+#email{
+    width: 100%;
+    padding: 5px;
+}
+#text-condition{
+    width: 100%;
+    display: block;
+    align-items: flex-start;
+}
+#line{
+    content: "";
+    width: 100%;
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-top: 1px solid #e7e7e7;
+    top: 50%;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+#button-create{
+    all: unset;
+    padding: 10px 15px;
+    background-color: white;
+    border:1px solid #e7e7e7 ;
+    border-radius: 5px;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+#help-link{
+    display: block;
+    align-items: flex-start;
+}
+
+#new-account{
+    display: block;
+}
+.new-user{
+    display: flex;
+    width: 23%;
+    flex-direction: column;
+}
+.new-user::after{
+    content: "";
+    width: 100%;
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-top: 1px solid #e7e7e7;
+    top: 50%;
+    margin-top: -1px;
+    z-index: 1;
+}
+.text-new{
+    color: #767676;
+}
+#button-Create{
+    all: unset;
+    text-align: center;
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid #E7E7E7;
+    background-color:white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.2);
+}

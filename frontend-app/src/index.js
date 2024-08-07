@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Login from './Login';
+import RegisterButton from './RegisterButton';
 import reportWebVitals from './reportWebVitals';
+import Navegation from './Nav';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Navegation />
+    <Login />
+    <RegisterButton />
   </React.StrictMode>
 );
 
