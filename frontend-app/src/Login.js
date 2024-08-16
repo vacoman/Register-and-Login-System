@@ -3,7 +3,7 @@ import './login.css';
 
 export default function Login() {
   return (
-    <div id='login-form'>
+    <div id='card-form'>
       <h1>Iniciar sesión</h1>
         <form>
           <label for='email' id='label-email'>E-mail</label>
