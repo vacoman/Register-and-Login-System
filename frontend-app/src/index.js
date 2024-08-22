@@ -1,17 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Login from './Login';
-import RegisterButton from './RegisterButton';
+//import Login from './Login';
+//import RegisterButton from './RegisterButton';
 import reportWebVitals from './reportWebVitals';
 import Navegation from './Nav';
+import Register from './Register';
+import LoginButton from './LoginButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navegation />
-    <Login />
-    <RegisterButton />
+    <Register />
+    <LoginButton />
   </React.StrictMode>
 );
 
